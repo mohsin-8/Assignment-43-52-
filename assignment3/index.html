@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="changeColorOne" onmouseover="headingOne()">Change The Color h1</h1>
+    <h2 id="changeColorTwo" onmouseover="headingTwo()">Change The Color h2</h2>
+
+    <img src="./download.jpg" class="imagePIC" id="img1" width="250px" alt="YNWA">
+
+    <button onclick="setImageVisible('myImageId', true)">Show</button>
+    <button onclick="setImageVisible('myImageId', false)">Hide</button>
+    <button onclick="big()">Big</button>
+    <button onclick="small()">Small</button>
+    <button onclick="reset()">reset</button>
+
+
+    <img src="./images/off.jpg" id="onMouseOVer" width="200px" onmouseout="offBulb()" onmouseover="onBulb()" alt="off">
+
+
+    <p id="para1">
+        Liverpool Football Club is a professional football club in Liverpool,
+        England, that competes in the Premier
+        League, the top tier of English football.
+    </p>
+    <p id="para2">
+        Liverpool Football Club is a professional football club in Liverpool,
+        England, that competes in the Premier
+        League, the top tier of English football.
+    </p>
+    <p id="para3">
+        Liverpool Football Club is a professional football club in Liverpool,
+        England, that competes in the Premier
+        League, the top tier of English football.
+    </p>
+    <p id="para4">
+        Liverpool Football Club is a professional football club in Liverpool,
+        England, that competes in the Premier
+        League, the top tier of English football.
+    </p>
+
+    <button onclick="changeColor()">Change Color All paragraph</button>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
